@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -10,42 +19,11 @@
         "padding_bottom": 12
       }
     },
-    "image_banner_KfAwyc": {
-      "type": "image-banner",
-      "custom_css": [
-
-      ],
+    "image_overlay_kzqbea": {
+      "type": "image-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/PrivacyDT_2_c9b3e720-a9ba-4efe-8f77-557d86b86866.webp",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "image_banner_4nk4Ae": {
-      "type": "image-banner",
-      "custom_css": [
-        ".banner__media img {background-color: white;}"
-      ],
-      "settings": {
-        "image_2": "shopify:\/\/shop_images\/Layer_1_1_fc29b22d-009d-452b-84c5-4a06261229aa.webp",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "image1": "shopify:\/\/shop_images\/PrivacyDT_2_c9b3e720-a9ba-4efe-8f77-557d86b86866.webp",
+        "image2": "shopify:\/\/shop_images\/Layer_1_1_e47ec9a2-d3d0-48d3-b613-bffc91b7e3c3.webp"
       }
     },
     "rich_text_pzFqy6": {
@@ -77,8 +55,7 @@
   },
   "order": [
     "main",
-    "image_banner_KfAwyc",
-    "image_banner_4nk4Ae",
+    "image_overlay_kzqbea",
     "rich_text_pzFqy6"
   ]
 }
