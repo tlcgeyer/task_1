@@ -1,0 +1,93 @@
+<div class="two-images-section bg-red-400 parent">
+    <div class="image-container img1-container">
+        <img class="img" src="{{ section.settings.image1 | img_url: 'master' }}" alt="Image 1">
+    </div>
+    <div class="image-container img2-container">
+        <img class="img overlay" src="{{ section.settings.image2 | img_url: 'master' }}" alt="Image 2">
+    </div>
+</div>
+ 
+
+
+{% style  %}
+
+@media screen and (min-width: 1450px) {
+    .img2-container {
+    height: 130px !important;
+    }
+
+    .overlay {
+        top: 50rem !important;
+    }
+}
+
+@media screen and (min-width: 768px ) and (max-width: 1024px) {
+    .img2-container {
+        height: 76px !important;
+    }
+    .overlay {
+    top: 390px !important;
+    }
+}
+@media screen and (max-width: 425px) {
+    .img2-container {
+    height: 17px !important;
+    }
+
+    .overlay {
+        top: 30rem !important;
+    }
+}
+
+
+.parent {
+    width: 100%;
+}
+
+.img1-container {
+    padding: 0 20px 0 20px; 
+    /* px-[20px] */
+}
+
+.img {
+    width: 100%;
+}
+
+.img2-container {
+height: 96px;
+}
+
+.overlay {
+        position: absolute;
+        top: 44rem;
+        width: 100%;
+        z-index: -1;
+}
+{% endstyle %}
+
+
+{% schema %}
+{
+    "name": "Two Images Section",
+    "class": "section w-full",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "image1",
+            "label": "Image 1"
+        },
+        {
+            "type": "image_picker",
+            "id": "image2",
+            "label": "Image 2"
+        }
+    ],
+    "presets": [
+        {
+            "category": "Custom",
+            "name": "Two Images"
+        }
+    ]
+}
+{% endschema %}
+
