@@ -8,59 +8,15 @@
 * ------------------------------------------------------------
 */
 {
+  "order": [
+    "main",
+    "multicolumn",
+    "related-products"
+  ],
   "sections": {
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
-        "custom_liquid_KPN8TY": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": ""
-          }
-        },
-        "text_atbzRp": {
-          "type": "text",
-          "settings": {
-            "text": "testing testing",
-            "text_style": "body"
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "square"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -68,9 +24,11 @@
             "show_gift_card_recipient": true
           }
         },
-        "description": {
-          "type": "description",
+        "caption": {
+          "type": "text",
           "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
           }
         },
         "collapsible-row-0": {
@@ -109,10 +67,57 @@
             "page": ""
           }
         },
+        "custom_liquid_KPN8TY": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
             "share_label": "Share"
+          }
+        },
+        "text_atbzRp": {
+          "type": "text",
+          "settings": {
+            "text": "testing testing",
+            "text_style": "body"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "square"
+          }
+        },
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
           }
         }
       },
@@ -210,10 +215,5 @@
         "padding_bottom": 28
       }
     }
-  },
-  "order": [
-    "main",
-    "multicolumn",
-    "related-products"
-  ]
+  }
 }

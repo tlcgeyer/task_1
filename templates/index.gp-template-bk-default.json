@@ -8,55 +8,12 @@
 * ------------------------------------------------------------
 */
 {
+  "order": [
+    "image_banner",
+    "featured_collection_wCfM4y",
+    "multirow_yyT3Q7"
+  ],
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Toys & Things<\/strong>",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<em>Online children's toy store.<\/em>",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/toys-things",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/childrens-toys.jpg",
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "image_behavior": "ambient",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
-      }
-    },
     "featured_collection_wCfM4y": {
       "type": "featured-collection",
       "settings": {
@@ -85,20 +42,57 @@
         "padding_bottom": 36
       }
     },
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify:\/\/collections\/toys-things",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Toys & Things<\/strong>",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<em>Online children's toy store.<\/em>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/childrens-toys.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
     "multirow_yyT3Q7": {
       "type": "multirow",
       "blocks": {
-        "row_nAgQQY": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3bebd434f6347a0598d683a2bbe72f3c_dda6fd91-0000-42e4-9dd0-b5fb1a7a9e21.jpg",
-            "caption": "LEGO",
-            "heading": "Pokemon Legos",
-            "text": "<p>Explore a Wide Selection of Exclusive Pokemon Lego Sets on our Online Store.<\/p>",
-            "button_label": "Shop Collection",
-            "button_link": "shopify:\/\/collections\/pokemon"
-          }
-        },
         "row_HDe6tx": {
           "type": "row",
           "settings": {
@@ -119,6 +113,17 @@
             "text": "<p>Authentic and High-Quality Digimon Plushies for Fans of All Ages.<\/p>",
             "button_label": "Shop Collection",
             "button_link": "shopify:\/\/collections\/digimon"
+          }
+        },
+        "row_nAgQQY": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3bebd434f6347a0598d683a2bbe72f3c_dda6fd91-0000-42e4-9dd0-b5fb1a7a9e21.jpg",
+            "caption": "LEGO",
+            "heading": "Pokemon Legos",
+            "text": "<p>Explore a Wide Selection of Exclusive Pokemon Lego Sets on our Online Store.<\/p>",
+            "button_label": "Shop Collection",
+            "button_link": "shopify:\/\/collections\/pokemon"
           }
         }
       },
@@ -143,10 +148,5 @@
         "padding_bottom": 36
       }
     }
-  },
-  "order": [
-    "image_banner",
-    "featured_collection_wCfM4y",
-    "multirow_yyT3Q7"
-  ]
+  }
 }
